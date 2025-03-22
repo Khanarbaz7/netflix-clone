@@ -70,6 +70,5 @@ Then, upload the **`build/`** folder to Netlify.
 ## **Contributing 🤝**  
 Feel free to **fork** the repo and submit a PR!  
 
----
-
-Let me know if you need any modifications! 🚀
+📜 License
+This project is for educational purposes only. Not for commercial use.
