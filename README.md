@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# **Netflix Clone 🎬**  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional **Netflix Clone** built using **React, Firebase, and TMDb API**, featuring user authentication, movie browsing, search, and a responsive UI.  
 
-## Available Scripts
+🚀 **[Live Demo Open this link to view live site ]( https://stunning-travesseiro-d042b0.netlify.app/login )**  
 
-In the project directory, you can run:
+## **Features 📌**  
+✅ User Authentication (Sign Up, Login, Logout)  
+✅ Browse Popular & Trending Movies & TV Shows  
+✅ Movie & TV Show Details Page  
+✅ Search Functionality  
+✅ Responsive UI  
 
-### `npm start`
+## **Tech Stack 🛠️**  
+- **Frontend:** React, CSS  
+- **Authentication:** Firebase  
+- **API:** TMDb (The Movie Database)  
+- **Deployment:** Netlify  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Getting Started 🚀**  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/netflix-clone.git
+cd netflix-clone
+```
 
-### `npm test`
+### **2️⃣ Install Dependencies**  
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **3️⃣ Set Up Firebase**  
+- Create a Firebase project.  
+- Enable **Authentication** (Email/Password Sign-in).  
+- Get your Firebase **config keys** and create a `.env` file in the project root:  
+  ```bash
+  REACT_APP_FIREBASE_API_KEY=your_api_key
+  REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+  ```
+  
+### **4️⃣ Set Up TMDb API**  
+- Sign up on **[TMDb](https://www.themoviedb.org/)** and get an API key.  
+- Add it to your `.env` file:  
+  ```bash
+  REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+  ```
 
-### `npm run build`
+### **5️⃣ Run the Project**  
+```bash
+npm start
+```
+The app runs on **`http://localhost:3000`**  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **How to Use the App 📝**  
+1️⃣ **Register** using your email and password on the Sign-Up page.  
+2️⃣ **Login** to access the home page.  
+3️⃣ Browse **Trending, Popular, and Top-Rated Movies & TV Shows**.  
+4️⃣ **Click on any movie or show** to see details.  
+5️⃣ **Use the search bar** to find your favorite content.  
+6️⃣ Click **Logout** to sign out.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Deployment 🌍**  
+To deploy on **Netlify**, run:  
+```bash
+npm run build
+```
+Then, upload the **`build/`** folder to Netlify.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Contributing 🤝**  
+Feel free to **fork** the repo and submit a PR!  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you need any modifications! 🚀
