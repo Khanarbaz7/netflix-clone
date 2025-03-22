@@ -2,7 +2,7 @@
 
 A fully functional **Netflix Clone** built using **React, Firebase, and TMDb API**, featuring user authentication, movie browsing, search, and a responsive UI.  
 
-🚀 **[Live Demo Open this link to view live site ]( https://stunning-travesseiro-d042b0.netlify.app/login )**  
+🚀 **[Live Demo Open this link to view live site ]( https://stunning-travesseiro-d042b0.netlify.app/ )**  
 
 ## **Features 📌**  
 ✅ User Authentication (Sign Up, Login, Logout)  
