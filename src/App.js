@@ -30,7 +30,6 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const trendingData = await fetchMovies("trending");
         const popularData = await fetchMovies("popular");
         const topRatedData = await fetchMovies("top_rated");
         const tvData = await fetchTVShows();
